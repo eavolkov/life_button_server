@@ -1,0 +1,3 @@
+SOCKET_API_PORT = 9000
+HTTP_API_PORT = 8000
+DB_NAME = 'life_button'

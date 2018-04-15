@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+Flask-SocketIO = "*"
+gevent-websocket = "*"
+Twisted = "*"
+mongoengine = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[dev-packages]
+ipython = "*"
+mypy = "*"
+"doc8" = "*"
+"flake8" = "*"
+jones-complexity = {git = "https://github.com/Miserlou/JonesComplexity.git"}
+sphinx-rtd-theme = "*"
+
+[requires]
+python_version = "3.6"
